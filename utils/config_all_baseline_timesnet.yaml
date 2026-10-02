@@ -1,0 +1,62 @@
+experiment:
+  name: all_baseline_timesnet
+  output_dir: ./experiments
+  seed: 42
+
+gpu_ids: '0'
+
+training:
+  batch_size: 128
+  early_stopping_monitor: loss
+  early_stopping_patience: 12
+  epochs: 60
+  learning_rate: 0.001
+
+loss:
+  type: focal
+  alpha: [2.0, 1.0, 2.0]
+  gamma: 2.0
+  label_smoothing: 0.0
+  cl_weight: 0.0          # 对比损失权重，设为 0 即不使用
+  cl_temperature: 0.07
+  aux_seq_weight: 0.0
+  aux_stat_weight: 0.0
+  aux_rank_weight: 0.0
+  aux_trend_weight: 0.0
+  rank_temperature: 0.0
+  trend_threshold: 0.05
+  aux_decay: false
+
+model:
+  # 合并版主实验：Gate 融合 + MHA 市场状态编码（美股全市场 nasdaq+nyse，4 指数宏观）
+  # 可换 scale_centric_fusion_gate_{factor,softmax,relation_matrix} / baseline_*（无宏观）
+  type: baseline_timesnet
+  input_dim: 8
+  hidden_dim: 64
+  num_layers: 1
+  num_classes: 3
+  dropout_rate: 0.5
+  encoder_type: tcn
+  kernel_size: 3
+  num_levels: 4
+  d_model: 64
+  depth: 4
+  intra_hidden: 32
+  macro_dim: 56
+
+optimizer:
+  type: adamw
+  lr_scheduler: plateau
+  weight_decay: 0.1
+  step_size: 30
+  gamma: 0.5
+  eta_min: 0.000001
+  patience: 5
+  factor: 0.5
+
+data:
+  processed_dir: data/processeddata2_all
+  # 手动开关：true=把 4 指数宏观(macro4idx)喂给模型；false=不加载、且自动改用无宏观基线模型
+  use_macro: false
+  # 4 指数宏观（SPX/NDQ/DJI/RUT, 60×56），由 preprocess_macro_us.py 生成
+  macro4idx_suffix: ''

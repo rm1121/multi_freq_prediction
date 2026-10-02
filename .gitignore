@@ -1,0 +1,17 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+.env
+*.log
+
+*.csv
+*.zip
+
+*.pt
+*.pth
+*.ckpt
+*.h5

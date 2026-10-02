@@ -1,0 +1,32 @@
+使用 CUDA GPU: [0]
+Epoch [1/60], Train Loss: 0.9742, Val Loss: 0.9669, Val Acc: 0.5241
+Epoch [2/60], Train Loss: 0.9631, Val Loss: 0.9700, Val Acc: 0.5243
+Epoch [3/60], Train Loss: 0.9610, Val Loss: 0.9607, Val Acc: 0.5230
+Epoch [4/60], Train Loss: 0.9604, Val Loss: 0.9672, Val Acc: 0.5200
+Epoch [5/60], Train Loss: 0.9590, Val Loss: 0.9656, Val Acc: 0.5176
+Epoch [6/60], Train Loss: 0.9578, Val Loss: 0.9668, Val Acc: 0.5129
+Epoch [7/60], Train Loss: 0.9579, Val Loss: 0.9637, Val Acc: 0.5194
+Epoch [8/60], Train Loss: 0.9563, Val Loss: 0.9688, Val Acc: 0.5192
+Epoch [9/60], Train Loss: 0.9554, Val Loss: 0.9744, Val Acc: 0.5105
+Epoch [10/60], Train Loss: 0.9530, Val Loss: 0.9651, Val Acc: 0.5229
+Epoch [11/60], Train Loss: 0.9517, Val Loss: 0.9610, Val Acc: 0.5253
+Epoch [12/60], Train Loss: 0.9509, Val Loss: 0.9600, Val Acc: 0.5276
+Epoch [13/60], Train Loss: 0.9506, Val Loss: 0.9700, Val Acc: 0.5178
+Epoch [14/60], Train Loss: 0.9489, Val Loss: 0.9940, Val Acc: 0.4985
+Epoch [15/60], Train Loss: 0.9481, Val Loss: 0.9831, Val Acc: 0.5079
+Epoch [16/60], Train Loss: 0.9468, Val Loss: 0.9993, Val Acc: 0.5050
+Epoch [17/60], Train Loss: 0.9464, Val Loss: 0.9931, Val Acc: 0.5085
+Epoch [18/60], Train Loss: 0.9445, Val Loss: 1.0255, Val Acc: 0.4901
+Epoch [19/60], Train Loss: 0.9429, Val Loss: 0.9898, Val Acc: 0.5140
+Epoch [20/60], Train Loss: 0.9417, Val Loss: 1.0137, Val Acc: 0.5040
+Epoch [21/60], Train Loss: 0.9415, Val Loss: 1.0085, Val Acc: 0.4973
+Epoch [22/60], Train Loss: 0.9404, Val Loss: 1.0217, Val Acc: 0.5077
+Epoch [23/60], Train Loss: 0.9395, Val Loss: 1.0143, Val Acc: 0.5017
+Epoch [24/60], Train Loss: 0.9400, Val Loss: 1.0072, Val Acc: 0.5062
+Early stopping triggered at epoch 24. Best loss at epoch 12.
+Last model saved to ./experiments\nasdaq_baseline_itransformer_2_20260813_195048\last_model.pth
+Best model baseline_itransformer saved at epoch 12 with accuracy: 0.5276 and loss: 0.9600
+Test Accuracy: 0.5084
+Class 0: Precision: 0.4398 | Recall: 0.7625 | F1: 0.5579
+Class 1: Precision: 0.6353 | Recall: 0.6207 | F1: 0.6279
+Class 2: Precision: 0.5091 | Recall: 0.1666 | F1: 0.2511

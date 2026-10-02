@@ -1,0 +1,54 @@
+data:
+  macro4idx_suffix: ''
+  processed_dir: data/processeddata2_nasdaq
+experiment:
+  name: nasdaq_fusion_gate_mha
+  output_dir: ./experiments
+  seed: 42
+gpu_ids: '0'
+loss:
+  alpha:
+  - 1.0
+  - 1.0
+  - 1.0
+  aux_decay: false
+  aux_rank_weight: 0.0
+  aux_seq_weight: 0.0
+  aux_stat_weight: 0.0
+  aux_trend_weight: 0.0
+  cl_temperature: 0.07
+  cl_weight: 0.0
+  gamma: 2.0
+  label_smoothing: 0.1
+  rank_temperature: 0.0
+  trend_threshold: 0.05
+  type: ce
+model:
+  d_model: 64
+  depth: 4
+  dropout_rate: 0.5
+  encoder_type: tcn
+  hidden_dim: 128
+  input_dim: 8
+  intra_hidden: 32
+  kernel_size: 3
+  macro_dim: 56
+  num_classes: 3
+  num_layers: 1
+  num_levels: 4
+  type: scale_centric_fusion_gate_mha
+optimizer:
+  eta_min: 1.0e-06
+  factor: 0.5
+  gamma: 0.5
+  lr_scheduler: plateau
+  patience: 5
+  step_size: 30
+  type: adamw
+  weight_decay: 0.1
+training:
+  batch_size: 128
+  early_stopping_monitor: loss
+  early_stopping_patience: 12
+  epochs: 60
+  learning_rate: 0.001

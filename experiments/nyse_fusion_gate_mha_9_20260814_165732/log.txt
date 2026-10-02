@@ -1,0 +1,65 @@
+使用 CUDA GPU: [0]
+Epoch [1/60], Train Loss: 0.4501, Val Loss: 0.8781, Val Acc: 0.5887
+Epoch [2/60], Train Loss: 0.4248, Val Loss: 0.5938, Val Acc: 0.6184
+Epoch [3/60], Train Loss: 0.4057, Val Loss: 0.4568, Val Acc: 0.6515
+Epoch [4/60], Train Loss: 0.3940, Val Loss: 0.4023, Val Acc: 0.6653
+Epoch [5/60], Train Loss: 0.3873, Val Loss: 0.4028, Val Acc: 0.6680
+Epoch [6/60], Train Loss: 0.3832, Val Loss: 0.3860, Val Acc: 0.6688
+Epoch [7/60], Train Loss: 0.3809, Val Loss: 0.3901, Val Acc: 0.6679
+Epoch [8/60], Train Loss: 0.3785, Val Loss: 0.3792, Val Acc: 0.6755
+Epoch [9/60], Train Loss: 0.3765, Val Loss: 0.3711, Val Acc: 0.6738
+Epoch [10/60], Train Loss: 0.3752, Val Loss: 0.3705, Val Acc: 0.6668
+Epoch [11/60], Train Loss: 0.3732, Val Loss: 0.3800, Val Acc: 0.6707
+Epoch [12/60], Train Loss: 0.3715, Val Loss: 0.3821, Val Acc: 0.6649
+Epoch [13/60], Train Loss: 0.3706, Val Loss: 0.3896, Val Acc: 0.6679
+Epoch [14/60], Train Loss: 0.3693, Val Loss: 0.3856, Val Acc: 0.6687
+Epoch [15/60], Train Loss: 0.3687, Val Loss: 0.3556, Val Acc: 0.6775
+Epoch [16/60], Train Loss: 0.3691, Val Loss: 0.3660, Val Acc: 0.6694
+Epoch [17/60], Train Loss: 0.3687, Val Loss: 0.3556, Val Acc: 0.6693
+Epoch [18/60], Train Loss: 0.3680, Val Loss: 0.3727, Val Acc: 0.6779
+Epoch [19/60], Train Loss: 0.3668, Val Loss: 0.3630, Val Acc: 0.6774
+Epoch [20/60], Train Loss: 0.3665, Val Loss: 0.3806, Val Acc: 0.6783
+Epoch [21/60], Train Loss: 0.3663, Val Loss: 0.3566, Val Acc: 0.6639
+Epoch [22/60], Train Loss: 0.3623, Val Loss: 0.3616, Val Acc: 0.6856
+Epoch [23/60], Train Loss: 0.3592, Val Loss: 0.3539, Val Acc: 0.6738
+Epoch [24/60], Train Loss: 0.3578, Val Loss: 0.3577, Val Acc: 0.6878
+Epoch [25/60], Train Loss: 0.3576, Val Loss: 0.3539, Val Acc: 0.6686
+Epoch [26/60], Train Loss: 0.3569, Val Loss: 0.3565, Val Acc: 0.6841
+Epoch [27/60], Train Loss: 0.3573, Val Loss: 0.3640, Val Acc: 0.6890
+Epoch [28/60], Train Loss: 0.3565, Val Loss: 0.3521, Val Acc: 0.6764
+Epoch [29/60], Train Loss: 0.3560, Val Loss: 0.3623, Val Acc: 0.6824
+Epoch [30/60], Train Loss: 0.3555, Val Loss: 0.3672, Val Acc: 0.6782
+Epoch [31/60], Train Loss: 0.3553, Val Loss: 0.3535, Val Acc: 0.6817
+Epoch [32/60], Train Loss: 0.3558, Val Loss: 0.3507, Val Acc: 0.6729
+Epoch [33/60], Train Loss: 0.3555, Val Loss: 0.3468, Val Acc: 0.6765
+Epoch [34/60], Train Loss: 0.3541, Val Loss: 0.3520, Val Acc: 0.6798
+Epoch [35/60], Train Loss: 0.3544, Val Loss: 0.3556, Val Acc: 0.6824
+Epoch [36/60], Train Loss: 0.3548, Val Loss: 0.3473, Val Acc: 0.6750
+Epoch [37/60], Train Loss: 0.3545, Val Loss: 0.3522, Val Acc: 0.6770
+Epoch [38/60], Train Loss: 0.3543, Val Loss: 0.3634, Val Acc: 0.6953
+Epoch [39/60], Train Loss: 0.3543, Val Loss: 0.3486, Val Acc: 0.6884
+Epoch [40/60], Train Loss: 0.3493, Val Loss: 0.3580, Val Acc: 0.6841
+Epoch [41/60], Train Loss: 0.3482, Val Loss: 0.3525, Val Acc: 0.6817
+Epoch [42/60], Train Loss: 0.3480, Val Loss: 0.3478, Val Acc: 0.6833
+Epoch [43/60], Train Loss: 0.3482, Val Loss: 0.3503, Val Acc: 0.6874
+Epoch [44/60], Train Loss: 0.3470, Val Loss: 0.3558, Val Acc: 0.6849
+Epoch [45/60], Train Loss: 0.3462, Val Loss: 0.3431, Val Acc: 0.6813
+Epoch [46/60], Train Loss: 0.3470, Val Loss: 0.3582, Val Acc: 0.6821
+Epoch [47/60], Train Loss: 0.3457, Val Loss: 0.3638, Val Acc: 0.6853
+Epoch [48/60], Train Loss: 0.3459, Val Loss: 0.3490, Val Acc: 0.6836
+Epoch [49/60], Train Loss: 0.3436, Val Loss: 0.3500, Val Acc: 0.6920
+Epoch [50/60], Train Loss: 0.3441, Val Loss: 0.3489, Val Acc: 0.6778
+Epoch [51/60], Train Loss: 0.3444, Val Loss: 0.3509, Val Acc: 0.6903
+Epoch [52/60], Train Loss: 0.3410, Val Loss: 0.3508, Val Acc: 0.6891
+Epoch [53/60], Train Loss: 0.3403, Val Loss: 0.3486, Val Acc: 0.6864
+Epoch [54/60], Train Loss: 0.3402, Val Loss: 0.3480, Val Acc: 0.6860
+Epoch [55/60], Train Loss: 0.3395, Val Loss: 0.3478, Val Acc: 0.6865
+Epoch [56/60], Train Loss: 0.3381, Val Loss: 0.3476, Val Acc: 0.6877
+Epoch [57/60], Train Loss: 0.3394, Val Loss: 0.3543, Val Acc: 0.6859
+Early stopping triggered at epoch 57. Best loss at epoch 45.
+Last model saved to ./experiments\nyse_fusion_gate_mha_9_20260814_165732\last_model.pth
+Best model scale_centric_fusion_gate_mha saved at epoch 38 with accuracy: 0.6953 and loss: 0.3634
+Test Accuracy: 0.6897
+Class 0: Precision: 0.7852 | Recall: 0.1962 | F1: 0.3140
+Class 1: Precision: 0.7632 | Recall: 0.8756 | F1: 0.8155
+Class 2: Precision: 0.5089 | Recall: 0.6375 | F1: 0.5660

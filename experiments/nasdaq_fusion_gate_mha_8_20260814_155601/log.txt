@@ -1,0 +1,40 @@
+使用 CUDA GPU: [0]
+[WARN] use_macro=false：模型 scale_centric_fusion_gate_mha 依赖宏观输入，已自动切换为 baseline_itransformer（无指数数据基线）。
+Epoch [1/60], Train Loss: 0.9764, Val Loss: 0.9660, Val Acc: 0.5232
+Epoch [2/60], Train Loss: 0.9650, Val Loss: 0.9566, Val Acc: 0.5257
+Epoch [3/60], Train Loss: 0.9630, Val Loss: 0.9581, Val Acc: 0.5259
+Epoch [4/60], Train Loss: 0.9622, Val Loss: 0.9603, Val Acc: 0.5292
+Epoch [5/60], Train Loss: 0.9611, Val Loss: 0.9558, Val Acc: 0.5260
+Epoch [6/60], Train Loss: 0.9598, Val Loss: 0.9555, Val Acc: 0.5247
+Epoch [7/60], Train Loss: 0.9597, Val Loss: 0.9633, Val Acc: 0.5202
+Epoch [8/60], Train Loss: 0.9595, Val Loss: 0.9693, Val Acc: 0.5186
+Epoch [9/60], Train Loss: 0.9583, Val Loss: 0.9571, Val Acc: 0.5277
+Epoch [10/60], Train Loss: 0.9583, Val Loss: 0.9587, Val Acc: 0.5264
+Epoch [11/60], Train Loss: 0.9575, Val Loss: 0.9570, Val Acc: 0.5254
+Epoch [12/60], Train Loss: 0.9568, Val Loss: 0.9578, Val Acc: 0.5260
+Epoch [13/60], Train Loss: 0.9550, Val Loss: 0.9579, Val Acc: 0.5239
+Epoch [14/60], Train Loss: 0.9545, Val Loss: 0.9535, Val Acc: 0.5255
+Epoch [15/60], Train Loss: 0.9540, Val Loss: 0.9599, Val Acc: 0.5268
+Epoch [16/60], Train Loss: 0.9534, Val Loss: 0.9574, Val Acc: 0.5281
+Epoch [17/60], Train Loss: 0.9533, Val Loss: 0.9581, Val Acc: 0.5292
+Epoch [18/60], Train Loss: 0.9525, Val Loss: 0.9563, Val Acc: 0.5243
+Epoch [19/60], Train Loss: 0.9521, Val Loss: 0.9533, Val Acc: 0.5282
+Epoch [20/60], Train Loss: 0.9517, Val Loss: 0.9577, Val Acc: 0.5260
+Epoch [21/60], Train Loss: 0.9516, Val Loss: 0.9615, Val Acc: 0.5260
+Epoch [22/60], Train Loss: 0.9515, Val Loss: 0.9617, Val Acc: 0.5228
+Epoch [23/60], Train Loss: 0.9499, Val Loss: 0.9635, Val Acc: 0.5271
+Epoch [24/60], Train Loss: 0.9496, Val Loss: 0.9596, Val Acc: 0.5275
+Epoch [25/60], Train Loss: 0.9490, Val Loss: 0.9806, Val Acc: 0.5125
+Epoch [26/60], Train Loss: 0.9466, Val Loss: 0.9750, Val Acc: 0.5222
+Epoch [27/60], Train Loss: 0.9457, Val Loss: 0.9752, Val Acc: 0.5234
+Epoch [28/60], Train Loss: 0.9453, Val Loss: 0.9881, Val Acc: 0.5113
+Epoch [29/60], Train Loss: 0.9448, Val Loss: 0.9717, Val Acc: 0.5280
+Epoch [30/60], Train Loss: 0.9442, Val Loss: 0.9723, Val Acc: 0.5239
+Epoch [31/60], Train Loss: 0.9439, Val Loss: 0.9801, Val Acc: 0.5227
+Early stopping triggered at epoch 31. Best loss at epoch 19.
+Last model saved to ./experiments\nasdaq_fusion_gate_mha_8_20260814_155601\last_model.pth
+Best model scale_centric_fusion_gate_mha saved at epoch 4 with accuracy: 0.5292 and loss: 0.9603
+Test Accuracy: 0.5181
+Class 0: Precision: 0.4588 | Recall: 0.7003 | F1: 0.5544
+Class 1: Precision: 0.5978 | Recall: 0.7243 | F1: 0.6550
+Class 2: Precision: 0.5120 | Recall: 0.1592 | F1: 0.2428

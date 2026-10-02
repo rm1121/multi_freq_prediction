@@ -1,0 +1,63 @@
+data:
+  macro4idx_suffix: ''
+  processed_dir: data/processeddata2_all
+experiment:
+  name: baseline_rcib
+  output_dir: ./experiments/baseline-comparison
+  seed: 42
+gpu_ids: '0'
+loss:
+  alpha:
+  - 1.0
+  - 1.0
+  - 1.0
+  aux_decay: true
+  aux_rank_weight: 0.0
+  aux_seq_weight: 0.0
+  aux_stat_weight: 0.0
+  aux_trend_weight: 0.0
+  cl_temperature: 0.07
+  cl_weight: 0.0
+  gamma: 2.0
+  label_smoothing: 0.1
+  rank_temperature: 0.0
+  trend_threshold: 0.05
+  type: ce
+model:
+  bilstm_hidden: 128
+  cnn_channels: 64
+  d_model: 64
+  depth: 2
+  dropout_rate: 0.5
+  hidden_dim: 128
+  input_dim: 8
+  intra_hidden: 32
+  kernel_size: 3
+  lags:
+  - 1
+  - 3
+  - 5
+  - 10
+  - 20
+  macro_dim: 56
+  num_classes: 3
+  num_layers: 1
+  num_levels: 4
+  patch_embed_dim: 32
+  patch_size: 5
+  type: baseline_rcib
+optimizer:
+  eta_min: 1.0e-06
+  factor: 0.5
+  gamma: 0.5
+  lr_scheduler: plateau
+  patience: 5
+  step_size: 30
+  type: adamw
+  weight_decay: 0.1
+training:
+  batch_size: 256
+  early_stopping_monitor: loss
+  early_stopping_patience: 12
+  epochs: 60
+  learning_rate: 0.001

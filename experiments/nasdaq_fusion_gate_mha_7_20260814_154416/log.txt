@@ -1,0 +1,2 @@
+使用 CUDA GPU: [0]
+Epoch [1/60], Train Loss: 0.9750, Val Loss: 1.0432, Val Acc: 0.4828
